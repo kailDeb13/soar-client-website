@@ -1,0 +1,208 @@
+* {
+font-family: sans-serif;
+scroll-behavior: smooth;
+}
+
+body {
+padding: 0;
+margin: 0;
+height: 100vh;
+aliceblue;
+font-size: 15px;
+overflow-x: hidden;
+color: white;
+}
+
+.top-section {
+ background-color: #c6ffdd; /* fallback for old browsers */
+   background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  height: 98%;
+  box-shadow:  0px 0px 8px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+header {
+margin-bottom: 70px;
+width: 100%;
+position: sticky;
+top: 0;
+}
+
+nav {
+background-color: rgba(255, 255, 255, 0.4);
+display: flex;
+justify-content: center;
+padding: 20px 0px;
+}
+
+ nav a {
+font-size: 16px;
+color: #FFAA64;
+text-decoration: none;
+filter: brightness(1.1);
+margin: 2px 20px;
+transition: 0.3sec;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.intro {
+width: 80%;
+max-width: 650px;
+border-radius: 15px;
+background-color: rgba(35, 35, 35, 0.2);
+margin: 20px auto 100px auto;
+padding: 15px 25px 20px 25px;
+background-image: url(soar-preview.png);
+  background-size: cover; /* This will make the background image shrink and cover the entire container while maintaining its aspect ratio */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center;
+}
+
+h1 {
+color: white;
+text-shadow: 0px 0px 1px rgba(20, 20, 20, 0.5);
+font-size: 35px;
+margin-bottom: 1px;
+}
+
+.sub {
+margin-top: 0;
+color: rgba(40, 40, 40, 0.7);
+font-size: 12px;
+}
+
+.intro-text {
+margin-top: 25px;
+line-height: 30px;
+}
+
+.btns button, .download-btn {
+border-radius: 12px;
+padding: 10px 25px;
+background-color: black;
+box-shadow: 0px 0px 3px rgba(30, 30, 30, 0.5);
+color: white;
+font-family: sans-serif;
+border: none;
+}
+
+.download {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+transition: 0.5s;
+}
+
+.download-section {
+margin: 0 30px;
+text-align: center;
+padding: 27px 41px;
+border-radius: 12px;
+box-shadow: 0px 0px 8px 1px rgba(25, 25, 25, 0.2);
+transition:  display 0.5s;
+width: 150px;
+background-color: rgba(30, 30, 30, 0.3);
+}
+
+.download h2 {
+font-size: 25px;
+}
+
+.download a, .features-btn a {
+text-decoration: none;
+color: white;
+}
+
+.features {
+margin-top: 80px;
+width: 100%;
+}
+
+.features h2 {
+font-size: 30px;
+font-weight: 450;
+text-align: center;
+color: rgb(20, 20, 20);
+}
+
+.feature-boxs {
+align-items: center;
+padding: 10px;
+width: 100%;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+}
+
+.feature {
+width: 80%;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+min-width: 500px;
+margin: 50px 0;
+}
+
+.feature img {
+width: 55%;
+border-radius: 20px;
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.feature .showcase-text {
+width: 45%;
+padding: 5px;
+color: rgb(20, 20, 20);
+line-height: 15px;
+}
+
+h3 {
+font-size: 23px;
+margin-bottom: 2px;
+}
+
+.faq {
+color: white;
+background-color: rgb(10, 10, 10);
+margin-top: 70px;
+padding: 50px 20px;
+background-image: url(background1.png);
+background-size: cover;
+}
+
+details {
+background-color: black;
+padding: 20px 5px;
+margin: 15px auto;
+border-radius: 10px;
+width: 60%;
+max-width: 450px;
+}
+
+.links {
+margin-top: 30px;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.lo {
+color: red;
+}
+
+.lt {
+color: lightblue;
+}
+
+.ltt {
+color: blue
+}
