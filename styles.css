@@ -207,3 +207,14 @@ color: lightblue;
 .ltt {
 color: blue
 }
+
+@media (max-width: 600px) {
+.top-section {
+height: fit-content;
+padding: 0 0 30px 0;
+}
+
+.download-section {
+margin: 10px 0;
+}
+}
